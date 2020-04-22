@@ -1,0 +1,138 @@
+body {
+    width: 85%;
+    padding: 30px 0px 30px 0px;
+    margin: auto;
+    background-color: #ffe4e0;
+    font-family: 'PT Sans', Helvetica, Arial, Sans-Serif;
+}
+
+/* SECTIONS */
+
+#logo {
+    height: 55px;
+    float: left;
+}
+
+nav {
+    text-align: right;
+    vertical-align: middle;
+}
+
+#row {
+    display: flex;
+    width: 85%;
+    margin: 50px auto 50px auto;
+}
+
+#photo {
+    width: 50%;
+    max-width: 350px;
+    margin: auto 20px auto 20px;
+    text-align: center;
+}
+
+#content {
+    margin: auto 20px auto 20px;
+    width: 100%;
+}
+
+#row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    #photo, #content {
+      width: 100%;
+      float: none;
+      margin: auto;
+    }
+
+    #photo {
+        text-align: center;
+    }
+
+    #row {
+        display: block;
+    }
+  }
+
+footer {
+    text-align: center;
+}
+
+/* STYLES */
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#logo a {
+    border: none;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    color: #000 !important;
+    font-family: Karla, Helvetica, Arial, Sans-Serif;
+    border: 0px;
+}
+
+nav button {
+    background-color: #db433e;
+    color: #fff;
+    border: none;
+    font-family: Karla, Helvetica, Arial, Sans-Serif;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+}
+
+nav button:hover {
+    background-color:#eb7672;
+}
+
+h1 {
+    color: #db433e;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: Karla;
+}
+
+h2 {
+    font-size: 18px;
+    color: #db433e !important;
+    font-weight: normal;
+    font-family: Karla;
+}
+
+
+h2, h3 {
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+    font-family: Karla;
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.4em;
+}
+
+a, a:visited {
+    color: #db433e;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:hover {
+    color: #eb7672 !important;
+}
