@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="icons/favicon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla&family=PT+Sans">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163901879-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-163901879-1');
+        </script>
+
+        <script type="text/javascript">
+            function changeImage(element) {
+            document.getElementById('imageReplace').src = element;
+            }
+            </script>
+    </head>
+
+    <body>
+        <div id="header">
+
+            <div id="logo">
+                <a href="/"><img src="icons/favicon.png"></a>
+            </div>
+
+            <nav>
+                <ul> 
+                    <li><a href="/">Home</a></li>
+                    <li><a href="highlights.html">Highlights</a></li>
+                    <li><a href="https://www.linkedin.com/in/milyzaflores/"><img src="icons/linkedin.png" width="20"></a></li>
+                    <li><a href="https://github.com/milyza"><img src="icons/github.png" width="20"></a></li>
+                    <li><button>Reach Out</button></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        {{ content }}
+
+
+        <footer>
+                <p><a href="https://github.com/milyza">Made with 💖 in NY</a> // Have a great day! ☀️</p>
+    </body>
+    
+    
+</html>
