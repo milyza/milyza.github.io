@@ -2,11 +2,20 @@
 <html>
   <head>
         <title>{{ page.title }}</title>
+ 
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="shortcut icon" type="image/png" href="../icons/favicon.png">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla&family=PT+Sans&display=swap">
+   
+        <meta name="title" content="{{ page.title }}">
+        <meta property="og:title" content="{{ page.title }}">
+        <meta name="description" content="Milyza Flores is a Filipina Product Manager & Community Organizer from NYC who always brings her whole self. ✨">
+        <meta property="og:description" content="Milyza Flores is a Filipina Product Manager & Community Organizer from NYC who always brings her whole self. ✨">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://milyza.co/">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:image" content="../photos/milyza_og.jpg"/>
+    
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163901879-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
